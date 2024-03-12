@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GITCLEAN/BCIOT/app/src/main/res/layout/activity_arduino.xml" value="0.23007246376811594" />
+        <entry key="..\:/GITCLEAN/BCIOT/app/src/main/res/layout/activity_mainnft.xml" value="0.23007246376811594" />
+        <entry key="..\:/GITCLEAN/BCIOT/app/src/main/res/layout/content_arduino.xml" value="0.23007246376811594" />
+        <entry key="..\:/GITCLEAN/BCIOT/app/src/main/res/layout/content_mainnft.xml" value="0.23007246376811594" />
+        <entry key="..\:/GITCLEAN/BCIOT/app/src/main/res/layout/content_token.xml" value="0.23007246376811594" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainBCAPP"
+        tools:showIn="@layout/activity_mainnft">
+
+
+    <!--
+    <TextView
+            android:id="@+id/TV_TEXT4"
+            android:layout_width="266dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Miritis:"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.884"
+            app:layout_constraintHorizontal_bias="0.531"/>
+    -->
+    <TextView
+            android:id="@+id/TV_TEXT"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Acesso a BlockChain"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+    />
+    <TextView
+            android:id="@+id/TV_TEXT21"
+            android:layout_width="177dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Microcontrolador"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.518"
+    />
+    <TextView
+            android:id="@+id/TV_TEXT2"
+            android:layout_width="266dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Satoshis:"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.947"
+            app:layout_constraintHorizontal_bias="0.503"/>
+    <!--
+    <Button
+            android:text="Money Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMS4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintVertical_bias="0.499"/>
+    -->
+    <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/TV_TEXT3"
+            android:layout_width="362dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Bitcoin Address:"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.847"
+            app:layout_constraintHorizontal_bias="0.673"/>
+
+    <Button
+            android:text="WRITE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMS1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintVertical_bias="0.178"/>
+
+    <Button
+            android:text="READ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMS2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintVertical_bias="0.178"/>
+    <Button
+            android:text="PVT KEY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMS6"
+
+            android:background="#CCF8EB"
+            android:textColor="@android:color/black"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintVertical_bias="0.315"/>
+    <Button
+            android:text="SEND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonMS7"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintVertical_bias="0.315"/>
+    <Button
+            android:text="BLUETOOTH"
+
+            android:background="#C5D6F6"
+            android:textColor="@android:color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonMS13"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.615" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"/>
+    <!-- <WebView
+             android:id="@+id/webview2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             android:layout_marginBottom="80dp"
+             android:layout_marginTop="200dp"
+
+     /> -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
